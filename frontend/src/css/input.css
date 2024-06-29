@@ -8,3 +8,44 @@
 		@apply text-neutral-200;
 	}
 }
+
+.img-fadeIn-right {
+	animation-name: fadeInR;
+	animation-duration: 5s;
+	/* animation-iteration-count: infinite; */
+}
+
+.img-fadeIn-Left {
+	animation-name: fadeInL;
+	animation-duration: 5s;
+	/* animation-iteration-count: infinite; */
+}
+@keyframes fadeInR {
+	from {
+		translate: -10vw 0;
+	}
+	to {
+		translate: 0 0;
+	}
+	0% {
+		opacity: 0;
+	}
+	100 {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeInL {
+	from {
+		translate: 10vw 0;
+	}
+	to {
+		translate: 0 0;
+	}
+	0% {
+		opacity: 0;
+	}
+	100 {
+		opacity: 1;
+	}
+}

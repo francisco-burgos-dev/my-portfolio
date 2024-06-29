@@ -569,6 +569,26 @@ html {
   position: relative;
 }
 
+.bottom-16 {
+  bottom: 4rem;
+}
+
+.left-\[10vw\] {
+  left: 10vw;
+}
+
+.left-\[32vw\] {
+  left: 32vw;
+}
+
+.left-\[35vw\] {
+  left: 35vw;
+}
+
+.right-\[33vw\] {
+  right: 33vw;
+}
+
 .right-\[45rem\] {
   right: 45rem;
 }
@@ -577,76 +597,58 @@ html {
   right: 60rem;
 }
 
+.top-52 {
+  top: 13rem;
+}
+
 .top-96 {
   top: 24rem;
+}
+
+.top-\[25vh\] {
+  top: 25vh;
 }
 
 .top-\[35rem\] {
   top: 35rem;
 }
 
-.right-4 {
-  right: 1rem;
+.left-12 {
+  left: 3rem;
 }
 
-.left-8 {
-  left: 2rem;
+.left-\[25vw\] {
+  left: 25vw;
 }
 
-.left-20 {
-  left: 5rem;
-}
-
-.left-96 {
-  left: 24rem;
-}
-
-.left-1\/4 {
-  left: 25%;
-}
-
-.left-1\/2 {
-  left: 50%;
-}
-
-.left-\[50vw\] {
-  left: 50vw;
-}
-
-.left-\[30vw\] {
-  left: 30vw;
-}
-
-.left-\[45vw\] {
-  left: 45vw;
-}
-
-.left-\[37vw\] {
-  left: 37vw;
-}
-
-.left-\[35vw\] {
-  left: 35vw;
-}
-
-.bottom-16 {
-  bottom: 4rem;
-}
-
-.top-16 {
-  top: 4rem;
+.top-4 {
+  top: 1rem;
 }
 
 .top-32 {
   top: 8rem;
 }
 
-.top-\[35vh\] {
-  top: 35vh;
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
-.top-\[25vh\] {
-  top: 25vh;
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
+.mt-11 {
+  margin-top: 2.75rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 
 .flex {
@@ -657,16 +659,52 @@ html {
   height: 5rem;
 }
 
-.w-52 {
-  width: 13rem;
-}
-
 .w-1\/3 {
   width: 33.333333%;
 }
 
+.w-48 {
+  width: 12rem;
+}
+
+.w-56 {
+  width: 14rem;
+}
+
+.w-96 {
+  width: 24rem;
+}
+
+.w-\[12vw\] {
+  width: 12vw;
+}
+
+.w-\[25vw\] {
+  width: 25vw;
+}
+
+.w-\[30vw\] {
+  width: 30vw;
+}
+
+.w-\[45vw\] {
+  width: 45vw;
+}
+
+.w-\[50vw\] {
+  width: 50vw;
+}
+
+.w-\[60vw\] {
+  width: 60vw;
+}
+
 .resize {
   resize: both;
+}
+
+.list-disc {
+  list-style-type: disc;
 }
 
 .justify-around {
@@ -691,6 +729,11 @@ html {
   padding-top: 1.25rem;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .text-7xl {
   font-size: 4.5rem;
   line-height: 1;
@@ -704,4 +747,52 @@ html {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.img-fadeIn-right {
+  animation-name: fadeInR;
+  animation-duration: 5s;
+  /* animation-iteration-count: infinite; */
+}
+
+.img-fadeIn-Left {
+  animation-name: fadeInL;
+  animation-duration: 5s;
+  /* animation-iteration-count: infinite; */
+}
+
+@keyframes fadeInR {
+  from {
+    translate: -10vw 0;
+  }
+
+  to {
+    translate: 0 0;
+  }
+
+  0% {
+    opacity: 0;
+  }
+
+  100 {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInL {
+  from {
+    translate: 10vw 0;
+  }
+
+  to {
+    translate: 0 0;
+  }
+
+  0% {
+    opacity: 0;
+  }
+
+  100 {
+    opacity: 1;
+  }
 }
