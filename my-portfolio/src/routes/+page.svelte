@@ -8,7 +8,7 @@
 		Hello, <br />
 		My name is Francisco Burgos
 	</h1>
-	<p class="text-lg absolute top-[45vh] left-[40vw]">
+	<p class="text-lg absolute top-[50vh] left-[40vw]">
 		This website has been viewed <a id="counter"></a>times!
 	</p>
 </main>
